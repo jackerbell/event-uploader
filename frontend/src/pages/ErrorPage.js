@@ -1,7 +1,7 @@
 import { useRouteError } from 'react-router-dom';
 import PageContent from '../components/PageContent';
 
-const Error = () => {
+const ErrorPage = () => {
   const error = useRouteError();
   
   let title = 'An error occured!';
@@ -23,4 +23,4 @@ const Error = () => {
   );
 };
 
-export default Error;
+export default ErrorPage;
